@@ -28,7 +28,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
                 onClick={() => setHActive(!hActive)}
                 delay={100}
               >
-                HOME
+                Home
               </Link>
             </div>
             <div className="menu_items">
@@ -41,7 +41,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
                 onClick={() => setHActive(!hActive)}
                 delay={100}
               >
-                FEATURES
+                Game
               </Link>
             </div>
             <div className="menu_items">
@@ -54,7 +54,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
                 duration={2000}
                 delay={100}
               >
-                ROADMAP
+                Marketplace
               </Link>
             </div>
             <div className="menu_items">
@@ -67,7 +67,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
                 duration={2000}
                 delay={100}
               >
-                TEAMS
+                Tokenomics
               </Link>
             </div>
             <div className="menu_items">
@@ -80,7 +80,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
                 duration={2000}
                 delay={100}
               >
-                ABOUT
+                Whitepaper
               </Link>
             </div>
           </div>
@@ -118,7 +118,7 @@ const Header = () => {
                     duration={2000}
                     delay={100}
                   >
-                    HOME
+                    Home
                   </Link>
                 </p>
                 <p>
@@ -132,7 +132,7 @@ const Header = () => {
                     duration={2000}
                     delay={100}
                   >
-                    FEATURES
+                    Game
                   </Link>
                 </p>
                 <p>
@@ -146,7 +146,7 @@ const Header = () => {
                     duration={2000}
                     delay={100}
                   >
-                    ROADMAP
+                    Marketplace
                   </Link>
                 </p>
                 <p>
@@ -160,7 +160,7 @@ const Header = () => {
                     duration={2000}
                     delay={100}
                   >
-                    TEAMS
+                    Tokenomics
                   </Link>
                 </p>
                 <p>
@@ -174,7 +174,7 @@ const Header = () => {
                     duration={2000}
                     delay={100}
                   >
-                    ABOUT
+                    Whitepaper
                   </Link>
                 </p>
               </nav>
