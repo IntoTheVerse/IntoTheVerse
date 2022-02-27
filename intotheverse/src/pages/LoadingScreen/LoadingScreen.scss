@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.loadingScreen {
+    width:100vw;
+    height:100vh;
+    background: url("../../assets/logo.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    &__main {
+        p {
+            color:white;
+            font-size:2.25rem;
+        }
+        &__title {
+            h1 {
+                font-size: 6rem;
+                font-weight: 400;
+                line-height: 125px;
+                color:black;
+            }
+        }
+    }
+    &__tips-tricks {
+        color:white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        position: absolute;
+        bottom:10px;
+        img {
+            height:40px;
+            width:40px;
+           animation: rotate 0.4s infinite;
+            //animation-direction: reverse;
+            //transform-origin: 50px 62.5px;
+        }
+        p {
+            font-size: 1em;
+            margin-left:30px;
+            color:white;
+        }
+    }
+}
+
+@keyframes rotate{
+    0%{
+      transform: rotate3d(0,1,0,0deg);
+    }
+    100%{
+      transform: rotate3d(0,1,0,180deg);
+    }
+  }
