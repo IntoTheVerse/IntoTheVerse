@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import "./Header.scss";
 
 import Logo from "../../assets/logo.svg";
+import Play from '../../assets/play.svg'
 import Chain from "../../assets/chain.svg"
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -81,6 +82,19 @@ import { Link, animateScroll as scroll } from "react-scroll";
                 delay={100}
               >
                 Whitepaper
+              </Link>
+            </div>
+            <div className="menu_items">
+              <Link
+                to="footerScreen"
+                spy={true}
+                smooth={true}
+                offset={0}
+                onClick={() => setHActive(!hActive)}
+                duration={2000}
+                delay={100}
+              >
+              <img src={Play} alt="logo" />
               </Link>
             </div>
           </div>
@@ -178,6 +192,8 @@ const Header = () => {
                   </Link>
                 </p>
               </nav>
+              <img src={Play} alt="play" />
+
                 <div className="hamburger" onClick={() => setHActive(!hActive)}>
                   <div className="hamburgerLine"></div>
                   <div className="hamburgerLine"></div>

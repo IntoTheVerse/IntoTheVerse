@@ -28,6 +28,8 @@
             position: relative;
             bottom:6px; //sketchy af :(
             background: #593D35;
+            border-style: dotted solid;
+            border-width: 2px white;
             padding:1em 4em;
             display: flex;
             justify-content: space-between;
@@ -41,10 +43,10 @@
                 font-family: "Balthazar";
                 font-size:1.5rem;
                 p{
-                    margin-left:50px;
+                    margin-left: 30px;
                     line-height: 1.1px;
-                    letter-spacing: 4px;
-                    font-weight: 300;
+                    letter-spacing: 3px;
+                    font-weight: 200;
                     cursor: pointer;
                 } 
             }

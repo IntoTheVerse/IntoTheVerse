@@ -4,13 +4,16 @@
     font-family:"Balthazar";
     src: url("../../assets/fonts/Balthazar.ttf");
 }
+
+$nav-img: "../../assets/";
+
 body {
     overflow-x: hidden;
 }
 .homeScreen {
     width:100vw;
     height:100vh;
-    background: black;
+    background: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -40,6 +43,10 @@ body {
             position: relative;
             bottom:6px; //sketchy af :(
             background: #593D35;
+            // background: url(#{$nav-img}/navbar.svg);
+            border: #9e7e75 3px;
+            border-radius: 10px;
+            border-style: dashed;
             padding:1em 4em;
             display: flex;
             justify-content: space-between;
@@ -53,10 +60,10 @@ body {
                 font-family: "Balthazar";
                 font-size:1.5rem;
                 p{
-                    margin-left:50px;
+                    margin-left: 30px;
                     line-height: 1.1px;
-                    letter-spacing: 4px;
-                    font-weight: 300;
+                    letter-spacing: 3px;
+                    font-weight: 200;
                     cursor: pointer;
                 }
             }
