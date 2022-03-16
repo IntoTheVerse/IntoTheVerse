@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import "./HomeScreen.scss";
-
+import verseMap from "../../assets/images/verseMap.png"
 
 
 const HomeScreen = () => {
@@ -25,7 +25,17 @@ const HomeScreen = () => {
         }  
       };
     return (
-        <section className="homeScreen" id="header">
+        <section className="homeScreen">
+            <section className="homeScreen__bannerContainer">
+                <section className="homeScreen__bannerContainer__Description">
+                    <h1>Welcome to Real-World!</h1>
+                    <p>Into The Verse is a <span className="highlightText">pixel replication</span> of the real world that we live in.</p>
+                    <p>People live in a crypto-native city in various aspects of life. The city has <span className="highlightText">houses, banks, museums, shops, farms, recreational avenues, etc.</span></p>
+                </section>
+                <section className="homeScreen__bannerContainer__verseMap">
+                    <img src={ verseMap } className="verseImg" alt="IntoTheVerse Map" />
+                </section>
+            </section>
             {/* <main className="homeScreen__bannerTitleContainer">
                 <section className="homeScreen__bannerTitleContainer__bannerTitle">
                     <h1>A PiXEL EXPERiENCE</h1>
