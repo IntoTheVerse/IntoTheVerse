@@ -36,18 +36,6 @@ const HomeScreen = () => {
                     <img src={ verseMap } className="verseImg" alt="IntoTheVerse Map" />
                 </section>
             </section>
-            {/* <main className="homeScreen__bannerTitleContainer">
-                <section className="homeScreen__bannerTitleContainer__bannerTitle">
-                    <h1>A PiXEL EXPERiENCE</h1>
-                    <h1>PLAY, COLLECT and EARN</h1>
-                    {isVisible && <img src={PlayButton} id="playbtn" className="play play_btn_center" alt="play_button" />}
-                </section>
-                <img src={CloudLeftOne} className="cloud cloud_left_one" alt="cloud_left_one" />
-                <img src={CloudLeftTwo} className="cloud cloud_left_two" alt="cloud_left_two" />
-                <img src={CloudRightOne} className="cloud cloud_right_one" alt="cloud_right_one" />
-                <img src={CloudRightTwo} className="cloud cloud_right_two" alt="cloud_right_two" />
-                <img src={CloudRightThree} className="cloud cloud_right_three" alt="cloud_right_three" />  
-            </main> */}
         </section >
     )
 }
