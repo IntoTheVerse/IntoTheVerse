@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 import "./PartnersandInvestors.scss";
-import verseMap from "../../assets/images/verseMap.png"
+import flori from "../../assets/images/floriventures.png"
+import node from "../../assets/images/nodeventures.png"
 
 const PartnersandInvestors = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -34,6 +35,10 @@ const PartnersandInvestors = () => {
             </section>
             <section className="PartnersandInvestorsGallery__widgetContainer">
                 <section className="PartnersandInvestorsGallery__widgetContainer__Box">
+                    <img src={ flori } className="PartnersandInvestorsGallery__widgetContainer__Box__InvestorLogo" alt="Flori Ventures" />
+                </section>
+                <section className="PartnersandInvestorsGallery__widgetContainer__Box">
+                    <img src={ node } className="PartnersandInvestorsGallery__widgetContainer__Box__InvestorLogo" alt="Node Ventures" />
                 </section>
             </section>
         </section >

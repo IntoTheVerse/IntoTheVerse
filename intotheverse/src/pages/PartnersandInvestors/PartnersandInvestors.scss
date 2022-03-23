@@ -38,8 +38,12 @@ body {
     }
     &__widgetContainer {
         width:100vw;
-        &__box {
-            
+        &__Box {
+            &__InvestorLogo {
+                margin-left: auto;
+                margin-right: auto;
+                padding: 20px;
+            }
         }
     }
 }
