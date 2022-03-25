@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header/Header';
-import HomeScreen from '../HomeScreen/HomeScreen';
-import PartnersandInvestors from '../PartnersandInvestors/PartnersandInvestors';
+import Header from '../../components/Metaverse/Header/Header';
+import HomeScreen from '../../components/Metaverse/HomeScreen/HomeScreen';
+import PartnersandInvestors from '../../components/Metaverse/PartnersandInvestors/PartnersandInvestors';
 // import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
 // import Footer from '../Footer/Footer';
 // import RoadmapScreen from '../RoadmapScreen/RoadmapScreen';
