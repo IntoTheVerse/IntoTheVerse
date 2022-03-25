@@ -80,16 +80,18 @@ body {
             width:50vw;
             display: inline;
             float: left;
+            margin-right: 50px;
+            padding: 0 50px 0 0;
             h1 {
                 font-family: 'Germania One', cursive;
                 font-size:4rem;
-                text-align: center;
+                // text-align: center;
                 color:#FFC759;
             }
             p {
                 font-family: 'Balthazar';
                 font-size: 1.5rem;
-                text-align: left;
+                text-align: justify;
                 color: beige;
             }
             .highlightText{
