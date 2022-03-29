@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+@font-face {
+    font-family:"Balthazar";
+    src: url("../../assets/fonts/Balthazar.ttf");
+}
+
+$nav-img: "../../assets/";
+
+body {
+    overflow-x: hidden;
+}
+.Footer {
+    width:100vw;
+    height:100vh;
+    background-color: #E0D5F2;
+    background-image: url("../../assets/images/Footer_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow:hidden;
+    //overflow-x: hidden;
+    &__titleContainer {
+        width:100vw;
+        justify-content: center;
+        z-index: 1000;
+        align-items: center;
+        padding-top: 10em;
+        p {
+            margin: 0;
+            color: #ffffff;
+            font-family: 'Germania One';
+            font-size:4rem;
+            text-align: center;
+        }
+    }
+    &__widgetContainer {
+        padding-left: 4em;
+        padding-right: 4em;
+        width:100vw;
+        &__Social {
+            padding-top: 1em;
+            display: flex;
+            justify-content: center;
+            a {
+                padding-inline-end: 1em;
+            }
+        }
+        &__Box {
+            padding: 3em;
+            display: flex;
+            &__container {
+                float: left;
+                width: 80%;
+                &__IntoTheVerseLogo {
+                    width: 30%;
+                }
+                &__BackLinks {
+                    padding-top: 1em;
+                    a {
+                        color: #ffffff;
+                        font-family: 'Germania One';
+                        font-size:2rem;
+                        text-align: center;
+                        padding-inline-end: 10px;
+                    }
+                }
+                &__copyright {
+                    color: #ffffff;
+                    font-size: 'Germania One';
+                }
+            }
+            &___StrongIllustration {
+                float: right;
+            }
+        }
+    }
+}

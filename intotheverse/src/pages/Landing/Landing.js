@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import HomeScreen from '../HomeScreen/HomeScreen';
 import PartnersandInvestors from '../PartnersandInvestors/PartnersandInvestors';
+import Footer from '../Footer/Footer';
 // import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
 // import Footer from '../Footer/Footer';
 // import RoadmapScreen from '../RoadmapScreen/RoadmapScreen';
@@ -12,6 +13,7 @@ const Landing = () => {
             <Header />
             <HomeScreen />
             <PartnersandInvestors />
+            <Footer />
             {/*<FeaturesScreen id="featuresScreen" />
             <RoadmapScreen id="roadmapScreen"/>
             <TeamInfoScreen id="teamInfoScreen" />
