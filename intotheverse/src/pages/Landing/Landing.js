@@ -1,7 +1,9 @@
 import React from 'react';
+
 import Header from '../../components/Metaverse/Header/Header';
 import HomeScreen from '../../components/Metaverse/HomeScreen/HomeScreen';
 import PartnersandInvestors from '../../components/Metaverse/PartnersandInvestors/PartnersandInvestors';
+import Footer from '../../components/Metaverse/Footer/Footer';
 // import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
 // import Footer from '../Footer/Footer';
 // import RoadmapScreen from '../RoadmapScreen/RoadmapScreen';
@@ -12,6 +14,7 @@ const Landing = () => {
             <Header />
             <HomeScreen />
             <PartnersandInvestors />
+            <Footer />
             {/*<FeaturesScreen id="featuresScreen" />
             <RoadmapScreen id="roadmapScreen"/>
             <TeamInfoScreen id="teamInfoScreen" />
