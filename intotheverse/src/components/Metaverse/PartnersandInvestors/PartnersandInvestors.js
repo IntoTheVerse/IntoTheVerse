@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
 import "./PartnersandInvestors.scss";
-import flori from "../../assets/images/floriventures.png"
-import node from "../../assets/images/nodeventures.png"
+import flori from "../../../assets/images/floriventures.png"
+import node from "../../../assets/images/nodeventures.png"
 
 const PartnersandInvestors = () => {
     const [isVisible, setIsVisible] = useState(true);

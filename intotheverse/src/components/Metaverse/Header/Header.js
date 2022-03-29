@@ -2,9 +2,9 @@ import React, { useEffect, useRef, useState } from 'react';
 
 import "./Header.scss";
 
-import Logo from "../../assets/logo.svg";
-import Play from '../../assets/play.svg'
-import Chain from "../../assets/chain.svg"
+import Logo from "../../../assets/logo.svg";
+import Play from '../../../assets/play.svg'
+import Chain from "../../../assets/chain.svg"
 import { Link, animateScroll as scroll } from "react-scroll";
 
     const Menu = ({ hActive, setHActive, menuTop }) => {

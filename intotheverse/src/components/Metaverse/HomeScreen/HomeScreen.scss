@@ -2,7 +2,7 @@
 
 @font-face {
     font-family:"Balthazar";
-    src: url("../../assets/fonts/Balthazar.ttf");
+    src: url("../../../assets/fonts/Balthazar.ttf");
 }
 
 $nav-img: "../../assets/";
@@ -13,12 +13,10 @@ body {
 .homeScreen {
     width:100vw;
     height:100vh;
-    background: url("../../assets/images/HomeScreen_bg.png");
+    background: url("../../../assets/images/Fold.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    // overflow:hidden;
-    //overflow-x: hidden;
     &__header {
         width: 100vw;
         position: fixed;
@@ -80,16 +78,18 @@ body {
             width:50vw;
             display: inline;
             float: left;
+            margin-right: 50px;
+            padding: 0 50px 0 0;
             h1 {
                 font-family: 'Germania One', cursive;
                 font-size:4rem;
-                text-align: center;
+                // text-align: center;
                 color:#FFC759;
             }
             p {
                 font-family: 'Balthazar';
                 font-size: 1.5rem;
-                text-align: left;
+                text-align: justify;
                 color: beige;
             }
             .highlightText{
