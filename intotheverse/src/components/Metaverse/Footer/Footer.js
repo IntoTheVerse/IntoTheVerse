@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
 import "./Footer.scss";
-import discord from "../../assets/images/discord.png"
-import twitter from "../../assets/images/twitter.png"
-import github from "../../assets/images/github.png"
-import logo from "../../assets/logo.svg"
-import standing from "../../assets/images/standing-strong.png"
+import discord from "../../../assets/images/discord.png"
+import twitter from "../../../assets/images/twitter.png"
+import github from "../../../assets/images/github.png"
+import logo from "../../../assets/logo.svg"
+import standing from "../../../assets/images/standing-strong.png"
 
 const Footer = () => {
     const [isVisible, setIsVisible] = useState(true);
