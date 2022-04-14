@@ -23,7 +23,7 @@ const HomeScreen = () => {
         } else {
              setIsVisible(true);
         }  
-      };
+    };
     return (
         <section className="homeScreen">
             <section className="homeScreen__bannerContainer">
