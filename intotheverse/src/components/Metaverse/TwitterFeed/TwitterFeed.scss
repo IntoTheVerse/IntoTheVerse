@@ -16,20 +16,17 @@ body {
     background-image: url("../../../assets/images/twitter_bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100vh;
-    &__titleContainer {
-        width:100vw;
-        display: flex;
-        justify-content: center;
-        z-index: 1000;
-        align-items: center;
-        // padding-top: 10em;
-        &__highlightText {
-            color:#8C5AE0;
+    &__smallWidgets {
+        height: auto;
+        width: 50vw;
+        margin-left: auto;
+        #left {
+            float: right; 
+            width:50%;
         }
-        p {
-            font-family: 'Germania One';
-            font-size:4rem;
-            text-align: center;
+        #right {
+            float: left;
+            width: 30%;
         }
     }
     &__widgetContainer {

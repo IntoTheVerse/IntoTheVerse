@@ -26,15 +26,11 @@ const TwitterFeed = () => {
       };
     return (
         <section className="TwitterFeed">
-            <TwitterFollowButton
-                    screenName={'IntoTheVerse_'}
-                />
-                <TwitterHashtagButton
-                    tag={'intotheverse'}
-                />
-                <TwitterMentionButton
-                    screenName={'IntoTheVerse_'}
-                />
+            <section className="TwitterFeed__smallWidgets">
+                <div id="left"><TwitterFollowButton id="left" screenName={'IntoTheVerse_'} /></div> 
+                {/* <div id="middle"><TwitterHashtagButton id="middle" tag={'intotheverse'} /></div> */}
+                {/* <div id="right"><TwitterMentionButton id="right" screenName={'IntoTheVerse_'} /></div> */}
+            </section>
             <section className="TwitterFeed__widgetContainer">
                 <section className="TwitterFeed__widgetContainer__Box">
                     <TwitterTimelineEmbed
