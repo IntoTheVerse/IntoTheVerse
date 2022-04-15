@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+@font-face {
+    font-family:"Balthazar";
+    src: url("../../../assets/fonts/Balthazar.ttf");
+}
+
+$nav-img: "../../assets/";
+
+body {
+    overflow-x: hidden;
+}
+.TokenEconomy {
+    width:100vw;
+    height:auto;
+    background-color: #E0D5F2 ;
+    background-image: url("../../../assets/images/vault.png");
+    background-repeat: no-repeat;
+    background-position: 1100px 250px;
+    background-size: 250px auto;
+    &__header {
+        width: 100vw;
+        position: fixed;
+        z-index: 1000;
+        &__content {
+            margin-inline: auto;
+            padding-inline: 1.5em;
+            max-width: 82rem;
+            display: flex;
+            flex-direction: column;
+        }
+        &__chainContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline:2vw;
+            img {
+                height: 30px;
+            }
+        }
+        &__main {
+            position: relative;
+            bottom:6px; //sketchy af :(
+            background: #593D35;
+            // background: url(#{$nav-img}/navbar.svg);
+            border: #9e7e75 3px;
+            border-radius: 10px;
+            border-style: dashed;
+            padding:1em 4em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img {
+                transform: scale(0.7)
+            }
+            &__nav {
+                display: flex;
+                color:white;
+                font-family: "Balthazar";
+                font-size:1.5rem;
+                p{
+                    margin-left: 30px;
+                    line-height: 1.1px;
+                    letter-spacing: 3px;
+                    font-weight: 200;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .oneLiner {
+        display: flex;
+        justify-content: center;
+        font-family: 'Balthazar';
+        font-size: 1.5rem;
+        color:#000;
+    }
+    &__titleContainer {
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        z-index: 1000;
+        align-items: center;
+        padding-top: 10em;
+        &__highlightText {
+            color:#8C5AE0;
+        }
+        p {
+            font-family: 'Germania One';
+            font-size:4rem;
+            text-align: center;
+        }
+    }
+    &__bannerContainer {
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        z-index: 1000;
+        align-items: center;
+        padding: 50px 60px 50px 60px;
+        justify-content: space-between;
+        &__DescriptionLeft {
+            width:40vw;
+            display: inline;
+            margin-right: 50px;
+            h1 {
+                font-family: 'Germania One', cursive;
+                font-size:4rem;
+                // text-align: center;
+                color:#000;
+            }
+            p {
+                font-family: 'Balthazar';
+                font-size: 1.5rem;
+                text-align: justify;
+                color:#000;
+            }
+            .highlightText{
+                color: #8C5AE0;
+                font-family: 'Germania One', cursive;
+            }
+        }
+        &__DescriptionRight {
+            width:40vw;
+            display: inline;
+            margin-left: 50px;
+            h1 {
+                font-family: 'Germania One', cursive;
+                font-size:4rem;
+                // text-align: center;
+                color:#000;
+            }
+            p {
+                font-family: 'Balthazar';
+                font-size: 1.5rem;
+                text-align: justify;
+                color:#000;
+            }
+            .highlightText{
+                color: #8C5AE0;
+                font-family: 'Germania One', cursive;
+            }
+        }
+        &__verseMap {
+            width: 40vw;
+            position: relative;
+            .VRSBox {
+                // position: absolute;
+                z-index: 1;
+            }
+            .VRSGif{
+                position: absolute;
+                top: 150px;
+                left: 160px;
+                z-index: 2;
+                height: 200px;
+                width: 200px;
+            }
+        }
+        &__stick {
+            padding: 0px 0px 0px 15px;
+        }
+        &__stickLeft {
+            padding: 0px 15px 0px 0px;
+        }
+    }
+}

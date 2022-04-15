@@ -7,6 +7,7 @@ import Footer from '../../components/Metaverse/Footer/Footer';
 import InfoScreen from '../../components/Metaverse/InfoScreen/InfoScreen'
 import LoreGallery from '../../components/Metaverse/YoutubeSection/LoreGallery';
 import TwitterFeed from '../../components/Metaverse/TwitterFeed/TwitterFeed';
+import TokenEconomy from '../../components/Metaverse/TokenEconomy/TokenEconomy';
 // import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
 // import Footer from '../Footer/Footer';
 // import RoadmapScreen from '../RoadmapScreen/RoadmapScreen';
@@ -18,6 +19,7 @@ const Landing = () => {
             <HomeScreen />
             <InfoScreen />
             <LoreGallery />
+            <TokenEconomy />
             <TwitterFeed />
             <PartnersandInvestors />
             <Footer />
