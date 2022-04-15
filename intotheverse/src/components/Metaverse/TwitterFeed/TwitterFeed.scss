@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
+
+@font-face {
+    font-family:"Balthazar";
+    src: url("../../../assets/fonts/Balthazar.ttf");
+}
+
+$nav-img: "../../assets/";
+
+body {
+    overflow-x: hidden;
+}
+.TwitterFeed {
+    top: 0;
+    background-color: #E0D5F2;
+    background-image: url("../../../assets/images/twitter_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    &__titleContainer {
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        z-index: 1000;
+        align-items: center;
+        // padding-top: 10em;
+        &__highlightText {
+            color:#8C5AE0;
+        }
+        p {
+            font-family: 'Germania One';
+            font-size:4rem;
+            text-align: center;
+        }
+    }
+    &__widgetContainer {
+        width: 50vw;
+        margin-left: auto;
+        &__Box {
+            padding: 5em 10em 15em;
+            align-content: center;
+            // flex: 1 1 560px; // inline chp4
+            h2 {
+                font-family: 'Germania One', cursive;
+                font-size: 2em;
+                color:#000;
+            }
+            .lore{
+                font-family: 'Germania One', cursive;
+                color:#8C5AE0;
+            }
+        }
+    }
+}
