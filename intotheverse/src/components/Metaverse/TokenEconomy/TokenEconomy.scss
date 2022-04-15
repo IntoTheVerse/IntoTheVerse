@@ -14,10 +14,10 @@ body {
     width:100vw;
     height:auto;
     background-color: #E0D5F2 ;
-    background-image: url("../../../assets/images/vault.png");
+    background-image: url("../../../assets/images/tokenFold.png");
     background-repeat: no-repeat;
-    background-position: 1250px 250px;
-    background-size: 250px auto;
+    // background-position: 1250px 250px;
+    background-size: 100vw;
     &__header {
         width: 100vw;
         position: fixed;
@@ -81,7 +81,7 @@ body {
         justify-content: center;
         z-index: 1000;
         align-items: center;
-        padding-top: 10em;
+        padding-top: 1.5em;
         &__highlightText {
             color:#8C5AE0;
         }
@@ -97,7 +97,7 @@ body {
         justify-content: center;
         z-index: 1000;
         align-items: center;
-        padding: 50px 60px 50px 60px;
+        padding: 10px 60px 10px 60px;
         justify-content: space-between;
         &__DescriptionLeft {
             width:40vw;
@@ -163,5 +163,11 @@ body {
         &__stickLeft {
             padding: 0px 15px 0px 0px;
         }
+    }
+    .Button {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        padding: 3em 3em;
     }
 }

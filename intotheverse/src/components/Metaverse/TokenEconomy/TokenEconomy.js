@@ -7,12 +7,13 @@ import NFTAssetBox from "../../../assets/images/NFTAsset.png"
 import VRSGif from "../../../assets/images/VRS.gif"
 import DGNGif from "../../../assets/images/DGN.gif"
 import NFTGif from "../../../assets/images/warrior.gif"
+import button from "../../../assets/images/read.png"
 
 
 const TokenEconomy = () => {
     return (
         <section className="TokenEconomy">
-            <section className="TokenEconomy__titleContainer vault">
+            <section className="TokenEconomy__titleContainer">
                 <p>
                     <span className="TokenEconomy__titleContainer__highlightText">"</span>
                         Token Economics
@@ -49,6 +50,9 @@ const TokenEconomy = () => {
                     <h1><span className="highlightText">"</span>Shop & Own NFTs<span className="highlightText">"</span></h1>
                     <p>For ages, the Celorians have been battling monsters inside the dark dungeons and mining treasure. They employ warriors through our marketplace, and also equip them with powerups to level-up and compete in missions.</p>
                 </section>
+            </section>
+            <section className="Button">
+                <a href="https://docs.intotheverse.xyz/token-economy/" target="_blank"><img src={ button } className="Footer__widgetContainer__SocialIcons" alt="Discord" /></a>
             </section>
         </section >
     )
