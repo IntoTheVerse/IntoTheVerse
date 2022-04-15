@@ -12,7 +12,7 @@ body {
 }
 .LoreGallery {
     width: 100vw;
-    height: auto;
+    // height: auto;
     background-color: #E0D5F2;
     background-image: url("../../../assets/images/Youtube.png");
     background-repeat: no-repeat;
@@ -57,13 +57,10 @@ body {
             h2 {
                 font-family: 'Germania One', cursive;
                 font-size: 2em;
-                // text-align: center;
                 color:#000;
             }
             .lore{
                 font-family: 'Germania One', cursive;
-                // font-size: 2em;
-                // text-align: center;
                 color:#8C5AE0;
             }
         }

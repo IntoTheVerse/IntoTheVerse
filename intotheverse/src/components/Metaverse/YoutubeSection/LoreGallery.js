@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import "./LoreGallery.scss";
-import flori from "../../../assets/images/floriventures.png"
-import node from "../../../assets/images/nodeventures.png"
+
 
 const LoreGallery = () => {
     const [isVisible, setIsVisible] = useState(true);
