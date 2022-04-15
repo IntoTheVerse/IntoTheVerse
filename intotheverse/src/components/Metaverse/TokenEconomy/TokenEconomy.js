@@ -27,13 +27,13 @@ const TokenEconomy = () => {
                     <img src={ VRSGif } className="VRSGif" alt="VRS Image" />
                 </section>
                 <section className="TokenEconomy__bannerContainer__DescriptionRight">
-                    <h1><span className="highlightText">"</span>Visit Banks<span className="highlightText">"</span></h1>
+                    <h1><span className="highlightText">"</span>$VRS<span className="highlightText">"</span></h1>
                     <p>One of the key reasons we're interested in blockchain technology is that we want to make investing exciting and pleasant for everyone within the realms. You would be able to swap tokens at market-exchange rates, and also view your Celo assets, NFT holdings while visiting Kiosks inside our banks.</p>
                 </section>
             </section>
             <section className="TokenEconomy__bannerContainer">
                 <section className="TokenEconomy__bannerContainer__DescriptionLeft">
-                    <h1><span className="highlightText">"</span>Farm rewards<span className="highlightText">"</span></h1>
+                    <h1><span className="highlightText">"</span>$DGN<span className="highlightText">"</span></h1>
                     <p>The city is blessed with fertile land. Farms are sown with seeds, bearing the LP token. Over time, the Celorians have been yielding healthy token rewards in their farms.</p>
                 </section>
                 <section className="TokenEconomy__bannerContainer__verseMap">
@@ -47,7 +47,7 @@ const TokenEconomy = () => {
                     <img src={ NFTGif } className="VRSGif" alt="VRS Image" />
                 </section>
                 <section className="TokenEconomy__bannerContainer__DescriptionRight">
-                    <h1><span className="highlightText">"</span>Shop & Own NFTs<span className="highlightText">"</span></h1>
+                    <h1><span className="highlightText">"</span>NFT Liquidity<span className="highlightText">"</span></h1>
                     <p>For ages, the Celorians have been battling monsters inside the dark dungeons and mining treasure. They employ warriors through our marketplace, and also equip them with powerups to level-up and compete in missions.</p>
                 </section>
             </section>
