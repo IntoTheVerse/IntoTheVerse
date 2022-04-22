@@ -5,7 +5,8 @@ import "./Header.scss";
 import Logo from "../../../assets/logo.svg";
 import Play from '../../../assets/play.svg'
 import Chain from "../../../assets/chain.svg"
-import { Link, animateScroll as scroll } from "react-scroll";
+// import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from 'react-router-dom'
 
     const Menu = ({ hActive, setHActive, menuTop }) => {
       const menuRef = useRef(null);
@@ -21,7 +22,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
           <div className="menu_nav">
             <div className="menu_items">
               <Link
-                to="header"
+                to="/metaverse"
                 spy={true}
                 smooth={true}
                 offset={0}
@@ -34,65 +35,41 @@ import { Link, animateScroll as scroll } from "react-scroll";
             </div>
             <div className="menu_items">
               <Link
-                to="featuresScreen"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={2000}
-                onClick={() => setHActive(!hActive)}
-                delay={100}
+                to="/game"
+                // spy={true}
+                // smooth={true}
+                // offset={0}
+                // duration={2000}
+                // onClick={() => setHActive(!hActive)}
+                // delay={100}
               >
                 Game
               </Link>
             </div>
             <div className="menu_items">
               <Link
-                to="roadmapScreen"
-                spy={true}
-                smooth={true}
-                offset={0}
-                onClick={() => setHActive(!hActive)}
-                duration={2000}
-                delay={100}
+                to="/game"
               >
                 Marketplace
               </Link>
             </div>
             <div className="menu_items">
               <Link
-                to="teamInfoScreen"
-                spy={true}
-                smooth={true}
-                offset={0}
-                onClick={() => setHActive(!hActive)}
-                duration={2000}
-                delay={100}
+                to="/game"
               >
                 Tokenomics
               </Link>
             </div>
             <div className="menu_items">
               <Link
-                to="footerScreen"
-                spy={true}
-                smooth={true}
-                offset={0}
-                onClick={() => setHActive(!hActive)}
-                duration={2000}
-                delay={100}
+                to="/game"
               >
                 Whitepaper
               </Link>
             </div>
             <div className="menu_items">
               <Link
-                to="footerScreen"
-                spy={true}
-                smooth={true}
-                offset={0}
-                onClick={() => setHActive(!hActive)}
-                duration={2000}
-                delay={100}
+                to="/game"
               >
               <img src={Play} alt="logo" />
               </Link>
@@ -125,7 +102,7 @@ const Header = () => {
                   <Link
                     className="nav-item"
                     activeClass="active"
-                    to="header"
+                    to="/metaverse"
                     spy={true}
                     smooth={true}
                     offset={0}
@@ -139,7 +116,7 @@ const Header = () => {
                   <Link
                     className="nav-item"
                     activeClass="active"
-                    to="featuresScreen"
+                    to="/game"
                     spy={true}
                     smooth={true}
                     offset={0}
@@ -153,7 +130,7 @@ const Header = () => {
                   <Link
                     className="nav-item"
                     activeClass="active"
-                    to="roadmapScreen"
+                    to="/game"
                     spy={true}
                     smooth={true}
                     offset={0}
@@ -167,7 +144,7 @@ const Header = () => {
                   <Link
                     className="nav-item"
                     activeClass="active"
-                    to="teamInfoScreen"
+                    to="/game"
                     spy={true}
                     smooth={true}
                     offset={0}
@@ -181,7 +158,7 @@ const Header = () => {
                   <Link
                     className="nav-item"
                     activeClass="active"
-                    to="footerScreen"
+                    to="/game"
                     spy={true}
                     smooth={true}
                     offset={0}

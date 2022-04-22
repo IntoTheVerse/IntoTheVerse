@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import LoadingScreen from './pages/LoadingScreen/LoadingScreen';
 import Landing from './pages/Landing/Landing'
+import Game from './pages/Game/Game'
+
 
 function App() {
   return (
@@ -25,7 +27,8 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={LoadingScreen}></Route>
-        <Route exact path="/home" component={Landing}></Route>
+        <Route exact path="/metaverse" component={Landing}></Route>
+        <Route exact path="/game" component={Game}></Route>
       </Switch>
     </Router>
   );
