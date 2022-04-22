@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 import "./HomeScreen.scss";
-import verseMap from "../../../assets/images/verseMap.png"
+import verseMap from "../../../assets/images/dungeonmap.png"
 
 
-const HomeScreen = () => {
+const LandingScreen = () => {
     const [isVisible, setIsVisible] = useState(true);
     useEffect(() => {   
         window.addEventListener("scroll", listenToScroll);
@@ -25,14 +25,14 @@ const HomeScreen = () => {
         }  
     };
     return (
-        <section className="homeScreen" id="HomeScreen">
-            <section className="homeScreen__bannerContainer">
-                <section className="homeScreen__bannerContainer__Description">
+        <section className="landingScreen">
+            <section className="landingScreen__bannerContainer">
+                <section className="landingScreen__bannerContainer__Description">
                     <h1>The Metaverse!</h1>
                     <p>Into The Verse is a <span className="highlightText">pixel replication</span> of the real world that we live in.
                     People live in a crypto-native city in a social metaverse. The city has <span className="highlightText">houses, banks, museums, shops, farms, recreational avenues, etc.</span></p>
                 </section>
-                <section className="homeScreen__bannerContainer__verseMap">
+                <section className="landingScreen__bannerContainer__verseMap">
                     <img src={ verseMap } className="verseImg" alt="IntoTheVerse Map" />
                 </section>
             </section>
@@ -40,4 +40,4 @@ const HomeScreen = () => {
     )
 }
 
-export default HomeScreen
+export default LandingScreen
