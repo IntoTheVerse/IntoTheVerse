@@ -37,9 +37,9 @@ const PartnersandInvestors = () => {
                 <section className="PartnersandInvestorsGallery__widgetContainer__Box">
                     <img src={ flori } className="PartnersandInvestorsGallery__widgetContainer__Box__InvestorLogo" alt="Flori Ventures" />
                 </section>
-                <section className="PartnersandInvestorsGallery__widgetContainer__Box">
+                {/* <section className="PartnersandInvestorsGallery__widgetContainer__Box">
                     <img src={ node } className="PartnersandInvestorsGallery__widgetContainer__Box__InvestorLogo" alt="Node Ventures" />
-                </section>
+                </section> */}
             </section>
         </section >
     )
