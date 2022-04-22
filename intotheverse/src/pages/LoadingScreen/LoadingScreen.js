@@ -13,7 +13,7 @@ const LoadingScreen = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            history.push("/home");
+            history.push("/metaverse");
         }, loadingtime);
         // eslint-disable-line react-hooks/exhaustive-deps
     }, [])
