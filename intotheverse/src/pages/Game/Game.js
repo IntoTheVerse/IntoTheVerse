@@ -5,7 +5,7 @@ import LandingScreen from '../../components/Game/HomeScreen/LandingScreen';
 import PartnersandInvestors from '../../components/Metaverse/PartnersandInvestors/PartnersandInvestors';
 import Footer from '../../components/Metaverse/Footer/Footer';
 import GameInfo from '../../components/Game/InfoScreen/GameInfo'
-import LoreGallery from '../../components/Metaverse/YoutubeSection/LoreGallery';
+import GuildScreen from '../../components/Game/GuildScreen/GuildScreen';
 import TwitterFeed from '../../components/Metaverse/TwitterFeed/TwitterFeed';
 import TokenEconomy from '../../components/Metaverse/TokenEconomy/TokenEconomy';
 // import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
@@ -18,7 +18,7 @@ const Game = () => {
             <Header />
             <LandingScreen />
             <GameInfo />
-            <LoreGallery />
+            <GuildScreen />
             <TokenEconomy />
             <TwitterFeed />
             <PartnersandInvestors />

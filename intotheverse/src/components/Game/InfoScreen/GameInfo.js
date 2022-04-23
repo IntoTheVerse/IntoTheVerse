@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 import "./GameInfo.scss";
-import BankImg from "../../../assets/images/bank.gif"
-import FarmImg from "../../../assets/images/farm.gif"
-import MarketImg from "../../../assets/images/market.gif"
-import ImpactImg from "../../../assets/images/impact.gif"
+import Dungeon1 from "../../../assets/images/dungeon1.gif"
+import Dungeon2 from "../../../assets/images/dungeon2.gif"
+import Dungeon3 from "../../../assets/images/dungeon3.gif"
+import Dungeon4 from "../../../assets/images/dungeon4.gif"
 import Stick from "../../../assets/images/stick.png"
 // import HandShake from "../../../assets/images/handshake.png"
 
@@ -34,7 +34,7 @@ const GameInfo = () => {
         <section className="GameInfoScreen">
             <section className="GameInfoScreen__bannerContainer">
                 <section className="GameInfoScreen__bannerContainer__verseMap">
-                    <img src={ BankImg } className="BankImg" alt="Bank Image" />
+                    <img src={ Dungeon1 } className="BankImg" alt="Bank Image" />
                 </section>
                 <section className="GameInfoScreen__bannerContainer__stick">
                     <img src={ Stick } className="stick" alt="Stick Image" />
@@ -53,12 +53,12 @@ const GameInfo = () => {
                     <img src={ Stick } className="stick" alt="Stick Image" />
                 </section>
                 <section className="GameInfoScreen__bannerContainer__verseMap">
-                    <img src={ FarmImg } className="BankImg" alt="Farm Image" />
+                    <img src={ Dungeon2 } className="BankImg" alt="Farm Image" />
                 </section>
             </section>
             <section className="GameInfoScreen__bannerContainer">
                 <section className="GameInfoScreen__bannerContainer__verseMap">
-                    <img src={ MarketImg } className="BankImg" alt="Market Image" />
+                    <img src={ Dungeon3 } className="BankImg" alt="Market Image" />
                 </section>
                 <section className="GameInfoScreen__bannerContainer__stick">
                     <img src={ Stick } className="stick" alt="Stick Image" />
@@ -77,7 +77,7 @@ const GameInfo = () => {
                     <img src={ Stick } className="stick" alt="Stick Image" />
                 </section>
                 <section className="GameInfoScreen__bannerContainer__verseMap">
-                    <img src={ ImpactImg } className="BankImg" alt="Impact Image" />
+                    <img src={ Dungeon4 } className="BankImg" alt="Impact Image" />
                 </section>
             </section>
         </section >
