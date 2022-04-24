@@ -28,7 +28,7 @@ const GuildScreen = () => {
             <section className="GuildScreen__titleContainer">
                 <p>
                     <span className="GuildScreen__titleContainer__highlightText">"</span>
-                    Lore
+                    Guilds
                     <span className="GuildScreen__titleContainer__highlightText">"</span>
                 </p>
             </section>
