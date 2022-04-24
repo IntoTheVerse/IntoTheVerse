@@ -1,6 +1,15 @@
 import React, { useState, useEffect } from 'react';
 
 import "./GuildScreen.scss";
+import aspectum from "../../../assets/images/aspectum.png"
+import veneficus from "../../../assets/images/veneficius.png"
+import strykur from "../../../assets/images/strykur.png"
+import strykur_ from "../../../assets/images/strykur_.gif"
+import veneficius_ from "../../../assets/images/veneficus.gif"
+import aspectum_ from "../../../assets/images/aspectum.gif"
+
+
+
 
 
 const GuildScreen = () => {
@@ -33,23 +42,33 @@ const GuildScreen = () => {
                 </p>
             </section>
             <p className='oneLiner'>Elders have been trying to master the powers within the mystical objects collected by various warriors over a period of last 450 years and were successful in figuring out a way to transform people into warrior with differnt and unique set of traits. This gave birth to the concept of guild, Veneficus was the first guild. Currenlty they have found 10 guilds and are trying to find more.</p>
-            <section className="GuildScreen__titleContainer">
+            <section className="GuildScreen__Disclaimer">
                 <p>
                     THREE GUILDS & MORE COMING
                 </p>
             </section>
             <section className="GuildScreen__widgetContainer">
                 <section className="GuildScreen__widgetContainer__Box">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jpcm_5E-BiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h2>Season 1: <span className='lore'>The Real World</span></h2>
+                    {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/jpcm_5E-BiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+                    <section className="GuildScreen__widgetContainer__Box__guild">
+                        <img src={ aspectum } className="guildimg" alt="" />
+                    </section>
+                    <h2>Aspectum</h2>
+                    <p className='oneLinerText'>Blessed with rare vision.</p>
                 </section>
                 <section className="GuildScreen__widgetContainer__Box">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/W5GkOawnS8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h2>Season 2: <span className='lore'>The Hidden World</span></h2>
+                    <section className="GuildScreen__widgetContainer__Box__guild">
+                        <img src={ veneficus } className="guildimg" alt="" />
+                    </section>
+                    <h2>Venfecius</h2>
+                    <p className='oneLinerText'>Blessed with msyterious powers.</p>
                 </section>
                 <section className="GuildScreen__widgetContainer__Box">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PhgnBYY3uK4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    <h2>Season 3: <span className='lore'>The Possibilities of the Metaverse</span></h2>
+                    <section className="GuildScreen__widgetContainer__Box__guild">
+                        <img src={ strykur } className="guildimg" alt="" />
+                    </section>
+                    <h2>Strykur</h2>
+                    <p className='oneLinerText'>Blessed with inhuman strength.</p>
                 </section>
             </section>
         </section >

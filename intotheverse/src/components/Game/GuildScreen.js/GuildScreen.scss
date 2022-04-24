@@ -39,6 +39,22 @@ body {
             color: #fff;
         }
     }
+    &__Disclaimer{
+        width:100vw;
+        display: flex;
+        justify-content: center;
+        z-index: 1000;
+        align-items: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+
+        p {
+            font-family: 'Germania One';
+            font-size: 4rem;
+            text-align: center;
+            color: #fff;
+        }
+    }
     .oneLiner {
         display: flex;
         justify-content: center;
@@ -55,28 +71,49 @@ body {
     }
     &__widgetContainer {
         width:100vw;
-        padding: 3em 20px 8em 20px;
+        padding: 3em 1em 3em 1em;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         flex-wrap: wrap;
         &__Box {
-            padding: 3em;
+            // padding: 2em 2em 0em 2em;
             align-content: center;
-            // flex: 1 1 560px; // inline chp4
-            iframe {
-                border: 5px dashed #fff;
-                border-radius: 6px;
-                box-shadow: 3px 3px 3px 3px #b593f0;
-                margin-bottom: 1em;
+            text-align: center;
+            vertical-align: auto;
+            &__guild {
+                align-items: center;
+                align-content: center;
+                .guildimg {
+                    height: 300px;
+                    width: 300px;
+                }
             }
+            // flex: 1 1 560px; // inline chp4
             h2 {
                 font-family: 'Germania One', cursive;
-                font-size: 2em;
-                color:beige;
+                font-size: 3em;
+                margin-top: 1em;
+                margin-bottom: 1.5em;
+                color:#8C5AE0;
+
             }
             .lore{
                 font-family: 'Germania One', cursive;
                 color:#8C5AE0;
+            }
+            .oneLinerText {
+                display: flex;
+                justify-content: center;
+                font-family: 'Balthazar';
+                font-size: 1.5rem;
+                color:#fff;
+                width: 100%;
+                // margin-left: auto;
+                // margin-right: auto;
+                margin-top: 2em;
+                // margin-bottom: 2em;
+                text-align: center;
+                // padding: 1em 4em;
             }
         }
     }

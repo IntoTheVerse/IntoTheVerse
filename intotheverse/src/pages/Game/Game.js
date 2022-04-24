@@ -3,11 +3,10 @@ import React from 'react';
 import Header from '../../components/Metaverse/Header/Header';
 import LandingScreen from '../../components/Game/HomeScreen/LandingScreen';
 import PartnersandInvestors from '../../components/Metaverse/PartnersandInvestors/PartnersandInvestors';
-import Footer from '../../components/Metaverse/Footer/Footer';
+import FooterScreen from '../../components/Game/FooterScreen/FooterScreen';
 import GameInfo from '../../components/Game/InfoScreen/GameInfo'
-import GuildScreen from '../../components/Game/GuildScreen/GuildScreen';
+import GuildScreen from '../../components/Game/GuildScreen.js/GuildScreen';
 import TwitterFeed from '../../components/Metaverse/TwitterFeed/TwitterFeed';
-import TokenEconomy from '../../components/Metaverse/TokenEconomy/TokenEconomy';
 // import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
 // import Footer from '../Footer/Footer';
 // import RoadmapScreen from '../RoadmapScreen/RoadmapScreen';
@@ -19,10 +18,7 @@ const Game = () => {
             <LandingScreen />
             <GameInfo />
             <GuildScreen />
-            <TokenEconomy />
-            <TwitterFeed />
-            <PartnersandInvestors />
-            <Footer />
+            <FooterScreen />
             {/*<FeaturesScreen id="featuresScreen" />
             <RoadmapScreen id="roadmapScreen"/>
             <TeamInfoScreen id="teamInfoScreen" />
