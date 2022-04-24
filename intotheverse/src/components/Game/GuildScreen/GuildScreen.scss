@@ -39,6 +39,20 @@ body {
             color: #fff;
         }
     }
+    .oneLiner {
+        display: flex;
+        justify-content: center;
+        font-family: 'Balthazar';
+        font-size: 1.5rem;
+        color:#fff;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        // margin-bottom: 2em;
+        text-align: center;
+        // padding: 1em 4em;
+    }
     &__widgetContainer {
         width:100vw;
         padding: 3em 20px 8em 20px;
