@@ -10,7 +10,7 @@ import TwitterFeed from '../../components/Metaverse/TwitterFeed/TwitterFeed';
 import TokenEconomy from '../../components/Metaverse/TokenEconomy/TokenEconomy';
 // import TeamInfoScreen from '../TeamInfoScreen/TeamInfoScreen';
 // import Footer from '../Footer/Footer';
-// import RoadmapScreen from '../RoadmapScreen/RoadmapScreen';
+import RoadmapScreen from '../../components/Metaverse/Roadmap/Roadmap';
 
 const Landing = () => {
     return (
@@ -20,6 +20,7 @@ const Landing = () => {
             <InfoScreen />
             <LoreGallery />
             <TokenEconomy />
+            <RoadmapScreen />
             <TwitterFeed />
             <PartnersandInvestors />
             <Footer />
