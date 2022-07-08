@@ -28,9 +28,9 @@ const LandingScreen = () => {
         <section className="landingScreen">
             <section className="landingScreen__bannerContainer">
                 <section className="landingScreen__bannerContainer__Description">
-                    <h1>The Metaverse!</h1>
-                    <p>Into The Verse is a <span className="highlightText">pixel replication</span> of the real world that we live in.
-                    People live in a crypto-native city in a social metaverse. The city has <span className="highlightText">houses, banks, museums, shops, farms, recreational avenues, etc.</span></p>
+                    <h1>Dungeon Hunt!</h1>
+                    <p>Dungeon Hunt is a novel <span className="highlightText">Play-To-Earn Role-Playing</span> dungeon crawler game, built on Celo Blockchain.
+                    It takes decades of best practices around building a <span className="highlightText">compelling RNG-based RPG,</span> while adding in new economic elements in the from of P2E model.</p>
                 </section>
                 <section className="landingScreen__bannerContainer__verseMap">
                     <img src={ verseMap } className="verseImg" alt="IntoTheVerse Map" />

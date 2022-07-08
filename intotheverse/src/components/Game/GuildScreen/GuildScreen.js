@@ -4,13 +4,6 @@ import "./GuildScreen.scss";
 import aspectum from "../../../assets/images/aspectum.png"
 import veneficus from "../../../assets/images/veneficius.png"
 import strykur from "../../../assets/images/strykur.png"
-import strykur_ from "../../../assets/images/strykur_.gif"
-import veneficius_ from "../../../assets/images/veneficus.gif"
-import aspectum_ from "../../../assets/images/aspectum.gif"
-
-
-
-
 
 const GuildScreen = () => {
     const [isVisible, setIsVisible] = useState(true);

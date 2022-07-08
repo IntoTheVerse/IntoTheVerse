@@ -41,13 +41,13 @@ const GameInfo = () => {
                 </section>
                 <section className="GameInfoScreen__bannerContainer__DescriptionRight">
                     <h1><span className="highlightText">"</span>The Hidden World<span className="highlightText">"</span></h1>
-                    <p>One of the key reasons we're interested in blockchain technology is that we want to make investing exciting and pleasant for everyone within the realms. You would be able to swap tokens at market-exchange rates, and also view your Celo assets, NFT holdings while visiting Kiosks inside our banks.</p>
+                    <p>There's a whole other world existing just beneath the surface. Since the dawn of time, otherworldly creatures (demons or monsters) have been living there in peace, unknown about the fact that humans inhabited a city above the surface.</p>
                 </section>
             </section>
             <section className="GameInfoScreen__bannerContainer">
                 <section className="GameInfoScreen__bannerContainer__DescriptionLeft">
                     <h1><span className="highlightText">"</span>Explore The Secrets<span className="highlightText">"</span></h1>
-                    <p>The city is blessed with fertile land. Farms are sown with seeds, bearing the LP token. Over time, the Celorians have been yielding healthy token rewards in their farms.</p>
+                    <p>The knowledge of hidden underground world had been known to a few and had been concealed from the rest. But all this changed around 500 years ago when two explorers stumbled upon a deep tunnel in the middle of the unknown dark forest.</p>
                 </section>
                 <section className="GameInfoScreen__bannerContainer__stickLeft">
                     <img src={ Stick } className="stick" alt="Stick Image" />
