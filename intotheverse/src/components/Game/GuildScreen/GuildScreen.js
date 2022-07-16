@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 import "./GuildScreen.scss";
-import aspectum from "../../../assets/images/aspectum.png"
-import veneficus from "../../../assets/images/veneficius.png"
-import strykur from "../../../assets/images/strykur.png"
+import aspectum from "../../../assets/images/aspectum.svg"
+import veneficus from "../../../assets/images/veneficius.svg"
+import strykur from "../../../assets/images/strykur.svg"
 
 const GuildScreen = () => {
     const [isVisible, setIsVisible] = useState(true);

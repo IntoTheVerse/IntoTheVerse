@@ -23,7 +23,7 @@ const LoadingScreen = () => {
             </section>
             <section className="loadingScreen__tips-tricks">
                 {/* <img src={HelpIcon} alt="help_icon" /> */}
-                <p>Play Earn Win!</p>
+                <p>Games for Good!</p>
             </section>
         </main>
     )
