@@ -5,7 +5,7 @@ import BankImg from "../../../assets/images/bank.gif"
 import FarmImg from "../../../assets/images/farm.gif"
 import MarketImg from "../../../assets/images/market.gif"
 import ImpactImg from "../../../assets/images/impact.gif"
-import Stick from "../../../assets/images/stick.png"
+import Stick from "../../../assets/images/stick.svg"
 import HandShake from "../../../assets/images/handshake.png"
 
 
