@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import "./PartnersandInvestors.scss";
-import flori from "../../../assets/images/floriventures.png"
+import flori from "../../../assets/images/floriventures.svg"
 import node from "../../../assets/images/nodeventures.png"
 
 const PartnersandInvestors = () => {

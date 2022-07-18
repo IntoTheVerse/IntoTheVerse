@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 import "./TokenEconomy.scss";
-import VRSBox from "../../../assets/images/VRSbox.png"
-import DGNBox from "../../../assets/images/DGNbox.png"
-import NFTAssetBox from "../../../assets/images/NFTAsset.png"
+import VRSBox from "../../../assets/images/VRSbox.svg"
+import DGNBox from "../../../assets/images/DGNbox.svg"
+import NFTAssetBox from "../../../assets/images/NFTAsset.svg"
 import VRSGif from "../../../assets/images/VRS.gif"
 import DGNGif from "../../../assets/images/DGN.gif"
 import NFTGif from "../../../assets/images/warrior.gif"
-import button from "../../../assets/images/read.png"
+import button from "../../../assets/images/read.svg"
 
 
 const TokenEconomy = () => {

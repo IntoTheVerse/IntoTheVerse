@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import "./HomeScreen.scss";
-import verseMap from "../../../assets/images/verseMap.png"
+import verseMap from "../../../assets/images/verseMap.svg"
 
 
 const HomeScreen = () => {
